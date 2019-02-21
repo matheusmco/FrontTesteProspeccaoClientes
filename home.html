@@ -4,13 +4,37 @@
 	relatório -> abre tela de relatório
 	novo -> tela de cadastro vazia
  -->
- <html>
-     <head>
+<html>
 
-     </head>
-     <body>
-         <!-- TODO: links relatório e novo -->
-         <!-- TODO: inputs de filtro por nome da empresa e nome de cliente -->
-         <!-- TODO: tabela com resultados, botões de editar e deletar à direita -->
-     </body>
- </html>
+<head>
+
+</head>
+
+<body>
+    <!-- TODO: links relatório e novo -->
+    <a href="relatorio.html">Relatório</a>
+    <a href="cadastro.html">Cadastro</a>
+
+    <!-- TODO: inputs de filtro por nome da empresa e nome de cliente -->
+    <label for="nomeEmpresa">Nome da empresa: </label>
+    <input id="nomeEmpresa" name="nomeEmpresa" type="text" />
+
+    <label for="nomeCliente">Nome do cliente: </label>
+    <input id="nomeCliente" name="nomeCliente" type="text" />
+
+    <!-- TODO: tabela com resultados, botões de editar e deletar à direita -->
+    <table>
+        <thead>
+            <th>Nome da empresa</th>
+            <th>Nome do cliente</th>
+            <th>Telefone</th>
+            <th>E-mail</th>
+            <th>Data</th>
+            <th>***</th>
+            <th>***</th>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+
+</html>
